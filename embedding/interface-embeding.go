@@ -41,7 +41,7 @@ type Implementer struct {
 
 }
 
-func interface4Testers(instance Interface4) {
+func interface4Test(instance Interface4) {
 	instance.Method1()
 	instance.Method2()
 	instance.Method3()
@@ -56,6 +56,6 @@ func main() {
 	 second: "you",
 	 size:   9,
  }
- interface4Testers(implementedInstance)
+ interface4Test(implementedInstance)
 
 }
